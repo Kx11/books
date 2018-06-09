@@ -15,6 +15,12 @@
 		F25680A420CC54D30049CC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25680A220CC54D30049CC63 /* LaunchScreen.storyboard */; };
 		F25680AF20CC54D30049CC63 /* MybookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25680AE20CC54D30049CC63 /* MybookTests.swift */; };
 		F25680BA20CC54D30049CC63 /* MybookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25680B920CC54D30049CC63 /* MybookUITests.swift */; };
+		F25680CE20CC56580049CC63 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680C820CC56580049CC63 /* book.png */; };
+		F25680CF20CC56580049CC63 /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680C920CC56580049CC63 /* s1.png */; };
+		F25680D020CC56580049CC63 /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CA20CC56580049CC63 /* star1.png */; };
+		F25680D120CC56580049CC63 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CB20CC56580049CC63 /* star3.png */; };
+		F25680D220CC56580049CC63 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CC20CC56580049CC63 /* star2.png */; };
+		F25680D320CC56580049CC63 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CD20CC56580049CC63 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		F25680B520CC54D30049CC63 /* MybookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MybookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25680B920CC54D30049CC63 /* MybookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MybookUITests.swift; sourceTree = "<group>"; };
 		F25680BB20CC54D30049CC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25680C820CC56580049CC63 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		F25680C920CC56580049CC63 /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
+		F25680CA20CC56580049CC63 /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
+		F25680CB20CC56580049CC63 /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
+		F25680CC20CC56580049CC63 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+		F25680CD20CC56580049CC63 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		F256809520CC54D10049CC63 /* Mybook */ = {
 			isa = PBXGroup;
 			children = (
+				F25680C720CC56580049CC63 /* image */,
 				F256809620CC54D10049CC63 /* AppDelegate.swift */,
 				F256809820CC54D10049CC63 /* ViewController.swift */,
 				F256809A20CC54D10049CC63 /* Main.storyboard */,
@@ -126,6 +139,19 @@
 				F25680BB20CC54D30049CC63 /* Info.plist */,
 			);
 			path = MybookUITests;
+			sourceTree = "<group>";
+		};
+		F25680C720CC56580049CC63 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F25680C820CC56580049CC63 /* book.png */,
+				F25680C920CC56580049CC63 /* s1.png */,
+				F25680CA20CC56580049CC63 /* star1.png */,
+				F25680CB20CC56580049CC63 /* star3.png */,
+				F25680CC20CC56580049CC63 /* star2.png */,
+				F25680CD20CC56580049CC63 /* 2.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +258,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25680D220CC56580049CC63 /* star2.png in Resources */,
+				F25680CF20CC56580049CC63 /* s1.png in Resources */,
+				F25680D020CC56580049CC63 /* star1.png in Resources */,
 				F25680A420CC54D30049CC63 /* LaunchScreen.storyboard in Resources */,
 				F25680A120CC54D30049CC63 /* Assets.xcassets in Resources */,
+				F25680CE20CC56580049CC63 /* book.png in Resources */,
+				F25680D320CC56580049CC63 /* 2.png in Resources */,
+				F25680D120CC56580049CC63 /* star3.png in Resources */,
 				F256809C20CC54D10049CC63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
