@@ -21,6 +21,10 @@
 		F25680D120CC56580049CC63 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CB20CC56580049CC63 /* star3.png */; };
 		F25680D220CC56580049CC63 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CC20CC56580049CC63 /* star2.png */; };
 		F25680D320CC56580049CC63 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F25680CD20CC56580049CC63 /* 2.png */; };
+		F25680D820CC57360049CC63 /* Addlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25680D420CC57350049CC63 /* Addlist.swift */; };
+		F25680D920CC57360049CC63 /* favoritebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25680D520CC57360049CC63 /* favoritebook.swift */; };
+		F25680DA20CC57360049CC63 /* favoritelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25680D620CC57360049CC63 /* favoritelist.swift */; };
+		F25680DB20CC57360049CC63 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25680D720CC57360049CC63 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		F25680CB20CC56580049CC63 /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
 		F25680CC20CC56580049CC63 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 		F25680CD20CC56580049CC63 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F25680D420CC57350049CC63 /* Addlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addlist.swift; sourceTree = "<group>"; };
+		F25680D520CC57360049CC63 /* favoritebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritebook.swift; sourceTree = "<group>"; };
+		F25680D620CC57360049CC63 /* favoritelist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritelist.swift; sourceTree = "<group>"; };
+		F25680D720CC57360049CC63 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,10 @@
 				F256809620CC54D10049CC63 /* AppDelegate.swift */,
 				F256809820CC54D10049CC63 /* ViewController.swift */,
 				F256809A20CC54D10049CC63 /* Main.storyboard */,
+				F25680D420CC57350049CC63 /* Addlist.swift */,
+				F25680D520CC57360049CC63 /* favoritebook.swift */,
+				F25680D620CC57360049CC63 /* favoritelist.swift */,
+				F25680D720CC57360049CC63 /* ListView.swift */,
 				F25680A020CC54D30049CC63 /* Assets.xcassets */,
 				F25680A220CC54D30049CC63 /* LaunchScreen.storyboard */,
 				F25680A520CC54D30049CC63 /* Info.plist */,
@@ -292,8 +304,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F256809920CC54D10049CC63 /* ViewController.swift in Sources */,
+				F25680D820CC57360049CC63 /* Addlist.swift in Sources */,
 				F256809F20CC54D10049CC63 /* Mybook.xcdatamodeld in Sources */,
+				F25680DB20CC57360049CC63 /* ListView.swift in Sources */,
+				F25680D920CC57360049CC63 /* favoritebook.swift in Sources */,
 				F256809720CC54D10049CC63 /* AppDelegate.swift in Sources */,
+				F25680DA20CC57360049CC63 /* favoritelist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
